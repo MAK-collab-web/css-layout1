@@ -1,0 +1,357 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px;
+    padding: 0px 30px;
+    height: 80px;
+    background-color:white;
+    position:sticky;
+    top: 0;
+    
+    
+
+}
+.logo{
+    width: 268px;
+    height: 80px;
+    cursor: pointer;
+}
+.nav-links a{
+    color: #ABABAB;
+    font-size: 15px;
+}
+nav  ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav-links .color {
+    color: #00b39b;
+}
+a:hover{
+    color: #00b39b;
+}
+#picture{
+    width: 40px;
+    height: 39px;
+    margin: 34px 600px;
+}
+h1{
+    display: block;
+    width: 975px;
+    height: 44px;
+    margin: 50px 280px;
+    font-size: 2rem;
+    font-family: fantasy;
+    font-weight: lighter;
+    color: #00b39b;
+    text-shadow: #03fde0 2px 8px 10px;
+}
+.content1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 900px;
+    margin: 40px 170px;
+    padding-top: 40px;
+    color: #ABABAB;
+    font-family: fantasy;
+}
+.boxe-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    
+
+}
+.services{
+    color: white;
+    background-color: #00ccb1;
+    border-radius: 20px;
+    width: 300px;
+    height: 390px;
+    
+}
+
+#pic1{
+    width: 40px;
+    margin: 30px 55px;
+    
+}
+h2{
+    color: rgb(122, 143, 163);
+    font-family:'Courier New', Courier, monospace;
+    font-size:normal;
+    font-style: italic;
+    margin: 0px 40px;
+}
+h3{
+    font-family: fantasy;
+    font-size: 20px;
+    font-weight: inherit;
+    text-align: justify;
+    margin: 30px 30px ;
+    width: 220px;
+    height: 80px;
+
+}
+.doctors{
+    color: white;
+    background-color: #170994;
+    border-radius: 20px;
+    width: 300px;
+    height: 390px;
+    
+}
+
+#pic2{
+    width: 40px;
+    margin: 30px 55px;
+
+}
+.clinics{
+    color: white;
+    background-color: #097f94;
+    border-radius: 20px;
+    width: 300px;
+    height: 390px;
+    
+}
+#pic3{
+    width: 40px;
+    margin: 30px 55px;
+    
+}
+.company{
+    display: flex;
+    justify-content: space-around;
+    width: 800px;
+    margin: 40px 170px;
+    padding-top: 40px;
+    color: #00b39b;
+    font-family: fantasy;
+}
+.company ul li{
+    display: inline-block;
+    width: 180px;  
+    height: 90px;
+    
+}
+h4{
+    position: relative;
+    left: 10px;
+    top: 70px;
+    font-size: 19px;
+    width: 600px;
+    
+}
+.company-links{
+    position: relative;
+    left: 200px;
+}
+.company-links a{
+    color: #ABABAB;
+}
+.company-links a:hover{
+    color: #00b39b;
+}
+.grid-container{
+    display: grid;
+    background: #E5FAF8;
+    width: 100%;
+    height: 800px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr 1fr ;
+    grid-gap:10px;
+
+}
+.grid-item1{
+    grid-column: 1/2;
+    grid-row: 1/-1;
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+    padding: 20px;
+}
+h5{
+    color: #00b39b;
+    font-family: cursive;
+    font-size: 28px;
+    width: 250px;
+    margin: 60px;
+    padding-left: 30px;
+}
+.grid-item1 p{
+    color: #ABABAB;
+    font-family: monospace;
+    padding-left: 60px;
+    width: 400px;
+
+
+}
+#pic4{
+    margin: 20px;
+    
+}
+.grid-item2{
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: black 2px 2px 10px;
+    width: 230px;
+    height: 280px;
+    margin-top: 40px;
+    padding: 15px;
+    
+}
+.grid-item2 p{
+    font-family: monospace;
+    color: #ABABAB;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 40px;
+}
+.grid-item2 h6{
+    font-family: cursive;
+    color: #00b39b;
+    font-size: 18px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+#pic4{
+    width: 300px;
+    height: 300px;
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+.part2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 40px;
+}
+#pic5{
+    width: 40px;
+    height: 40px;
+    margin: 20px 80px;
+}
+.content2 h1{
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+.content2 p{
+    color: #ABABAB;
+    font-family: fantasy;
+    text-align: center;
+    font-size: 14px;
+    width: 600px;
+    height: 150px;
+    margin: 80px 280px;
+
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap:20px;
+
+    
+}
+.card{
+    background-image: url(../Res/warsaw.png);
+    background-position: center;
+    background-size:cover;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: black 5px 5px 10px;
+    width: 320px;
+    height: 295px;
+    margin-left: 40px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.card p{
+    text-align: left;
+    margin-top: 75%;
+    padding-left: 20px;
+    color: white;
+    text-shadow: black 2px 2px;
+    font-size: 18px;
+    
+    
+}
+.button{
+    margin-left: 55%;
+    border-color: white;
+    border-radius: 15px;
+    border-color: transparent;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    font-size: 12px;
+    font-family: cursive;
+    width: 40%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.button:hover{
+    transform: translateX(5px);
+}
+.card1{
+    background-image: url(../Res/bologna.png);
+}
+.card2{
+    background-image: url(../Res/istanbul.png);
+}
+.card3{
+    background-image: url(../Res/rome.png);
+}
+.card4{
+    background-image: url(../Res/bologna.png);
+}
+.card5{
+    background-image: url(../Res/curitiba.png);
+}
+.card6{
+    background-image: url(../Res/mexico-city.png);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.closing{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: lighter;
+    color: rgb(68, 66, 66);
+    margin-top: 160px;
+}
+.button1{
+    text-align: center;
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    background-color: #2bd1be;
+    border-color: transparent;
+    font-family: cursive;
+    color: white;
+    margin-top: 50px;
+    box-shadow: 2px 2px 5px black;
+}
+footer p{
+    text-align: center;
+    color:#ABABAB;
+    font-size: 12px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    border-top: #ABABAB solid 1px;
+    padding-top: 30px;
+}
